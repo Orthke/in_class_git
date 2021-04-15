@@ -4,5 +4,14 @@ def add(x,y):
 def sub(x,y):
     return x-y
 
-add(1,2)
-sub(2,1)
+def mult(x,y):
+    return x*y
+
+def div(x,y):
+    return x/y
+    
+
+print(add(1,2))
+print(sub(2,1))
+print(mult(5,2))
+print(div(10,2))
