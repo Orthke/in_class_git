@@ -8,5 +8,9 @@ def calc(a,b):
 
     return results
 
-for result in calc(5,10):
+results = calc(5,10)
+
+for result in results:
     print(result)
+
+print("Sum of results: {}".format(sum(results)))
