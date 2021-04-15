@@ -1,17 +1,12 @@
-def add(x,y):
-    return x+y
+def calc(a,b):
+    sum = a+b
+    diff = a-b
+    mult = a*b
+    div = a/b
 
-def sub(x,y):
-    return x-y
+    results = [sum, diff, mult, div]
 
-def mult(x,y):
-    return x*y
+    return results
 
-def div(x,y):
-    return x/y
-    
-
-print(add(1,2))
-print(sub(2,1))
-print(mult(5,2))
-print(div(10,2))
+for result in calc(5,10):
+    print(result)
