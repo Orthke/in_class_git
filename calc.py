@@ -1,9 +1,8 @@
-import os
-import math
+def add(x,y):
+    return x+y
 
-def calc(a,b):
-    sum = a+b
-    print(sum)
+def sub(x,y):
+    return x-y
 
-
-calc(3,5)
+add(1,2)
+sub(2,1)
