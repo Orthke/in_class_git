@@ -1,16 +1,17 @@
-def calc(a,b):
-    sum = a+b
-    diff = a-b
-    mult = a*b
-    div = a/b
+def add(a,b):
+    return a+b
 
-    results = [sum, diff, mult, div]
+def sub(a,b):
+    return a-b
 
-    return results
+def mult(a,b):
+    return a*b
 
-results = calc(5,10)
+def div(a,b):
+    return a/b
 
-for result in results:
-    print(result)
+if __name__ == "__main__":
 
-print("Sum of results: {}".format(sum(results)))
+    results = add(5,10)
+
+    print("Result: {}".format(results))
